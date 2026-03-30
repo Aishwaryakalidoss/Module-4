@@ -28,16 +28,25 @@ To write a Python program to take the radius from the user and find the area of 
 ### PROGRAM
 
 ```
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+import math
+class pen:
+    def stationary(self, r):
+        area = math.pi * r ** 2
+        print("Area of circle:", round(area, 2))
 
-
-
+r = int(input())
+p = pen()
+p.stationary(r)
 ```
 
 ### OUTPUT
 
+<img width="515" height="162" alt="image" src="https://github.com/user-attachments/assets/bc4b6f3d-e45a-4f73-ae14-e635f884730f" />
 
 
 ### RESULT
-
+Thus, the Python program to find the area of a circle using class name pen and function name stationary has been successfully executed and the output is verified.
 
 
