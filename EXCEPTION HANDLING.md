@@ -23,12 +23,27 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+try:
+    age = int(input())
+    print("Age is:")
+    print(age)
+    
+    if age < 0:
+        raise ValueError("Input Correct age.")
+    else:
+        year_of_birth = 2022 - age
+        print("Year of Birth is:")
+        print(year_of_birth)
+        
+except ValueError as e:
+    print(e)
 
 ```
 
 ### OUTPUT
+<img width="474" height="252" alt="image" src="https://github.com/user-attachments/assets/47ecf661-fb37-4cd0-aeb9-8207ce54dd70" />
 
 ### RESULT
+Thus, the Python program to check if the age value is negative and raise an exception using the raise keyword has been successfully executed and the output is verified.
