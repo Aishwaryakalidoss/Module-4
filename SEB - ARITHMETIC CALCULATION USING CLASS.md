@@ -35,11 +35,44 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
-
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+class calc:
+    def setvalues(self,a,b):
+        self.a=a
+        self.b=b
+    def modulo(self):
+        return self.a % self.b
+    def division(self):
+        if self.b!=0:
+            result= self.a/self.b
+            if result.is_integer():
+                return int(result)
+            else:
+                return result
+        else:
+            return "Error"
+calc_instance=calc()
+a=int(input())
+b=int(input())
+calc_instance.setvalues(a,b)
+while True:
+    choice=int(input())
+    if choice==1:
+        print(f"Result:  {calc_instance.modulo()}")
+    elif choice==2:
+        print(f"Result:  {calc_instance.division()}")
+    elif choice==0:
+        print("Exiting!")
+        break
+    else:
+        print("Invalid choice")
 
 
 ```
 
 ### OUTPUT
+<img width="438" height="327" alt="image" src="https://github.com/user-attachments/assets/51dc2938-a60f-424e-8d0b-484621d89316" />
 
 ### RESULT
+Thus, the Python program to perform modulo and floor division operations using the class SEC has been successfully executed and the output is verified.
