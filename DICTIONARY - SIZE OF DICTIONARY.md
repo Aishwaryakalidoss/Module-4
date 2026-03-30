@@ -22,15 +22,20 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 ### PROGRAM
 
 ```
-#Reg.No
-#Name
-#Add Your Code Here
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+dict1 = eval(input())
+dict2 = eval(input())
+merged = {**dict2, **dict1}
+print(merged)
 
 
 
 ```
 
 ### OUTPUT
+<img width="1343" height="200" alt="image" src="https://github.com/user-attachments/assets/46e892b1-e6fc-4bd3-a41e-931fd920a3bc" />
 
 
 ### RESULT
+Thus, the Python program to merge dictionary2 with dictionary1 has been successfully executed and the output is verified.
